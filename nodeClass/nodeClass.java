@@ -1,19 +1,19 @@
-public class node {
+public class NodeClass {
     //instance
     Object data;
     node parent;
     node child;
 
     //basic constructor
-    public node(){}
+    public NodeClass(){}
 
     // constructor with data input
-    public node(Object data) {
+    public NodeClass(Object data) {
         this.data = data;
     }
 
     //constructor with data, parent, and child.
-    public node(Object data, node parent, node child) {
+    public NodeClass(Object data, node parent, node child) {
         this.data = data;
         this.parent = parent;
         this.child = child;
